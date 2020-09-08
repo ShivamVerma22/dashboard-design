@@ -76,6 +76,7 @@ nav ul li{
     height: 15%;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 li i{
@@ -94,12 +95,26 @@ li a{
     margin-left: 15px;
 }
 
-li:nth-child(1) i{
+li .icon.active{
     background-color: #4C6FFF;
     color: #fff;
 }
 
-li:nth-child(1) a{
+.dot{
+    font-size: 10px !important;
+    color: #4C6FFF !important;
+    background-color: transparent !important;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    display: none;
+}
+
+.dot.active{
+    display: initial;
+}
+
+li a.active{
     color: #000;
 }
 
