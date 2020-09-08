@@ -1,0 +1,288 @@
+@media(max-width: 1300px){
+    .box i{
+        font-size: 45px;
+    }
+
+    .top-left-description h3{
+        font-size: 16px;
+    }
+
+    .newsletter .search{
+        width: 100%;
+    }
+
+    .featured h3{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1150px){
+    .box{
+        height: 24%;
+    }
+    .author-month{
+        width: 15%;
+    }
+}
+
+@media(max-width: 1000px){
+    .left{
+        width: 30%;
+        position: absolute;
+        right: -100%;
+        z-index: 99;
+    }
+    .box{
+        height: 20%;
+    }
+    .right{
+        width: 100%;
+    }
+    #menu{
+        display: initial;
+    }
+}
+
+@media(max-width: 900px){
+    .top-left{
+        width: 60%;
+    }
+    .top-right{
+        width: 35%;
+    }
+    .mid-article{
+        width: 33%
+    }
+    .featured{
+        width: 80%;
+    }
+}
+
+@media(max-width: 700px){
+    main{
+        overflow-y: auto;
+    }
+    .left{
+        width: 40%;
+    }
+
+    .articles-showcase{
+        position: relative;
+        min-height: 195vh;
+        margin-top: 100px !important;
+    }
+
+    .top-articles{
+        top: -5%;
+        height: 70vh;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top-left{
+        height: 50%;
+        width: 90%;
+    }
+    .top-right{
+        height: 40%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-right-top{
+        justify-content: center;
+    }
+    .middle-articles{
+        flex-direction: column;
+        align-items: center;
+        min-height: 57vh;
+    }
+    .newsletter{
+        width: 80%;
+        height: 30%;
+    }
+    .mid-article{
+        margin-top: 20px;
+        width: 80%;
+        height: 33%;
+    }
+    .mid-article-photo{
+        width: 47%;
+    }
+    .bottom-articles{
+        height: 60vh;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7%;
+    }
+    .featured{
+        width: 90%;
+        height: 50%;
+    }
+    .author-month{
+        width: 50%;
+        height: 40%;
+    }
+    .overlay h5{
+        left: 0;
+    }
+}
+
+@media(max-width: 600px){
+    header{
+        padding: 0 10px !important;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    header .search{
+        height: 40px;
+    }
+    .search i{
+        padding: 12px;
+    }
+    .search input::placeholder{
+        font-size: 12px;
+    }
+    #menu{
+        padding: 12px;
+    }
+    .newsletter .search i{
+        padding: 14px;
+    }
+}
+
+@media(max-width: 500px){
+    header h1{
+        font-size: 16px;
+    }
+    h1 i{
+        margin-right: 5px;
+    }
+    h1 .light{
+        margin-left: 3px;
+    }
+    header .search{
+        height: 35px;
+    }
+    .search i{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .search input::placeholder{
+        font-size: 10px;
+    }
+    #menu{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .left{
+        width: 60%;
+        padding: 30px 10px;
+    }
+    .box{
+        width: 100%;
+        height: 22%;
+        margin-top: 20px;
+    }
+    .box-image{
+        width: 30%;
+        margin-top: 20px;
+    }
+    .box-image i{
+        font-size: 40px;
+        opacity: 0.7;
+    }
+    .box-data button{
+        padding: 6px 20px;
+        font-size: 12px;
+    }
+    
+    .top-articles,.middle-articles,.bottom-articles{
+        padding: 0 10px;
+    }
+    .top-left{
+        width: 100%;
+        height: 40%;
+    }
+    .top-left-description{
+        padding-right:0;
+        width: 60%;
+    }
+    .top-left-image{
+        width: 40%;
+    }
+    .top-left-description h3{
+        font-size: 14px;
+    }
+    .top-right{
+        width: 100%;
+    }
+    .newsletter,.mid-article,.featured{
+        width: 100%;
+    }
+    .mid-article{
+        height: 30%;
+    }
+    .top-right{
+        height: 50%;
+    }
+    .bottom-articles{
+        justify-content: space-around;
+    }
+    .featured{
+        width: 100%;
+        height: 40%;
+        padding: 20px 10px;
+    }
+    .featured-data h3{
+        font-size: 14px;
+    }
+    .featured-data p{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 450px){
+    header h1{
+        font-size: 14px;
+    }
+    .top-left{
+        width: 100%;
+        height: 35%;
+    }
+    .top-left-description h3{
+        font-size: 12px;
+    }
+    .author-details h5{
+        font-size: 12px;
+    }   
+    .author-details p{
+        font-size: 10px;
+    }
+    .top-left-author{
+        margin-top: 10px;
+    }
+    .author-month{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media(max-width: 400px){
+    .featured-data{
+        width: 85%;
+    }
+    .featured-image{
+        width: 15%;
+    }
+    .featured-data h3{
+        font-size: 12px;
+    }
+    .featured-data p{
+        font-size: 10px;
+    }
+}

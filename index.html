@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <section class="left">
+            <i id="close" class="ri-close-line"></i>
             <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1727&q=80" alt="" class="profile-image">
             <h4>Sep 07, 2020</h4>
             <p>08:43 am</p>
@@ -44,20 +46,25 @@
             </nav>
 
             <article class="box">
-                <h4>News in a box</h4>
-                <p>Box is all you need.</p>
-                <button>Upgrade</button>
-                <i class="ri-inbox-line"></i>
+                <div class="box-data">
+                    <h4>News in a box</h4>
+                    <p>Box is all you need.</p>
+                    <button>Upgrade</button>
+                </div>
+                <div class="box-image">
+                    <i class="ri-inbox-line"></i>
+                </div>
             </article>
         </section>
         <section class="right">
-            <header>
+            <header class="header">
                 <h1><i class="ri-sun-line"></i> Good morning, 
                     <span class="light">Rose</span></h1>
                 <div class="search">
                     <input type="text" placeholder="Search for articles">
-                    <i class="ri-search-line"></i>
+                    <i id="search" class="ri-search-line"></i>
                 </div>
+                <i id="menu" class="ri-menu-line"></i>
             </header>
 
             <section class="articles-showcase">
@@ -129,11 +136,15 @@
                 </div>
                 <div class="bottom-articles">
                     <div class="featured">
-                        <img src="image/sadgirl.png" alt="">
-                        <button>Featured</button>
-                        <h3>Natural mood regulation low or even absent<br> in people with depression</h3>
+                        <div class="featured-data">
+                            <button>Featured</button>
+                            <h3>Natural mood regulation low or even absent<br> in people with depression</h3>
 
-                        <p>Mood varies from hour-to-hour and healthy mood regulation <br>involves choosing activitites that help settle ones mood.</p>
+                            <p>Mood varies from hour-to-hour and healthy mood regulation <br>involves choosing activitites that help settle ones mood.</p>
+                        </div>
+                        <div class="featured-image">
+                            <img src="image/sadgirl.png" alt="">
+                        </div>
                     </div>
                     <div class="author-month">
                         <h2>Author</h2>
@@ -151,5 +162,7 @@
             </section>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

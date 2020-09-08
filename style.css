@@ -14,6 +14,8 @@ main{
     width: 100%;
     height: 100%;
     display: flex;
+    position: relative;
+    overflow: hidden;
 }
 
 .left{
@@ -21,6 +23,18 @@ main{
     height: 100%;
     background-color: #fff;
     padding: 30px;
+    transition: 0.5s;
+    position: relative;
+}
+
+#close{
+    position: absolute;
+    right: 4%;
+    padding: 14px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #4C6FFF;
+    display: none;
 }
 
 .profile-image{
@@ -101,21 +115,29 @@ li a:hover{
     color: #fff;
     padding: 10px 15px;
     margin-top: 30px;
-    position: relative;
+    display: flex;
 }
 
-.box h4{
+.box-data{
+    width: 70%;
+    height: 100%;
+}
+
+.box-image{
+    width: 30%;
+    margin-top: 30px;
+}
+.box-data h4{
     font-weight: 400;
     font-size: 16px;
     margin-top: 20px;
 }
 
-.box p{
+.box-data p{
     font-size: 12px;
-    /* margin: 0 !important; */
 }
 
-.box button{
+.box-data button{
     padding: 8px 24px;
     background-color: #3355DE;
     color: #fff;
@@ -127,17 +149,14 @@ li a:hover{
     font-weight: 400;
 }
 
-.box button:hover{
+.box-data button:hover{
     cursor: pointer;
     color: #3355DE;
     background-color: #fff;
 }
 
-.box i{
+.box-image i{
     font-size: 60px;
-    position: absolute;
-    right: 15%;
-    top: 17%;
     opacity: 0.7;
 }
 
@@ -176,7 +195,7 @@ h1 i{
 
 .search{
     height: 45px;
-    width: 300px;
+    width: 33%;
     background-color: #F3F4F8;
     border-radius: 10px;
     position: relative;
@@ -205,6 +224,14 @@ h1 i{
     color: #fff;
     border-radius: 10px;
     background-color: #4C6FFF;
+}
+
+#menu{
+    padding: 14px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #4C6FFF;
+    display: none;
 }
 
 .articles-showcase{
@@ -249,11 +276,13 @@ h1 i{
     width: 50%;
     height: 100%;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .top-left-description h5{
     opacity: 0.5;
-    margin-bottom: 15px;
 }
 
 .top-left-description h3{
@@ -263,7 +292,6 @@ h1 i{
 .top-left-author{
     width: 100%;
     display: flex;
-    margin-top: 30px;
 }
 
 .top-left-author .profile-image{
@@ -376,6 +404,7 @@ h1 i{
 
 .newsletter .search{
     margin-top: 10px;
+    width: 100%;
 }
 
 .mid-article{
@@ -442,15 +471,24 @@ h1 i{
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     border: 7px solid #fff;
     padding: 30px;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
     overflow: hidden;
 }
 
-.featured img{
-    width: 100px;
-    object-fit: cover;
-    position: absolute;
-    right: 7%;
+.featured-data{
+    width: 70%;
+    height: 100%;
+}
+
+.featured-image{
+    width: 20%;
+    height: 100%;;
+}
+
+.featured-image img{
+    width: 100%;
+    object-fit: cover
 }
 
 .featured button{
@@ -530,3 +568,20 @@ h1 i{
 h5 .light{
     opacity: 0.8;
 }
+
+.left.active{
+    right: 0%;
+    transition: 0.5s;
+    position: fixed;
+}
+
+.right.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+#close.active{
+    display: initial;
+}
+
