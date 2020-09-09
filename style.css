@@ -45,13 +45,13 @@ main{
 }
 
 .left h4{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     margin-top: 10px;
 }
 
 .left p{
-    font-size: 14px;
+    font-size: 1rem;
     opacity: 0.6;
     margin-top: 5px;
 }
@@ -81,7 +81,7 @@ nav ul li{
 
 li i{
     padding: 10px;
-    font-size: 18px;
+    font-size: 1.2rem;
     background-color: #ECF0F3;
     border-radius: 10px;
     color: #6D8391;
@@ -90,7 +90,7 @@ li i{
 li a{
     text-decoration: none;
     color: #6D8391;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 500;
     margin-left: 15px;
 }
@@ -144,12 +144,12 @@ li a:hover{
 }
 .box-data h4{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.1rem;
     margin-top: 20px;
 }
 
 .box-data p{
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 .box-data button{
@@ -160,7 +160,7 @@ li a:hover{
     margin-top: 20px;
     outline: none;
     border: none;
-    font-size: 13px;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 
@@ -171,7 +171,7 @@ li a:hover{
 }
 
 .box-image i{
-    font-size: 60px;
+    font-size: 4rem;
     opacity: 0.7;
 }
 
@@ -324,7 +324,7 @@ h1 i{
 }
 
 .author-details p{
-    font-size: 12px;
+    font-size: 0.8rem;
     margin-top: 5px;
 }
 
@@ -348,7 +348,7 @@ h1 i{
 }
 
 .top-right-top > i{
-    font-size: 40px;
+    font-size: 3rem;
     opacity: 0.6;
 }
 
@@ -362,13 +362,13 @@ h1 i{
 
 .details p{
     margin-top: 3px;
-    font-size: 12px;
+    font-size: 0.8rem;
     opacity: 0.6;
 }
 
 .link{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.8rem;
     display: flex;
     align-items: center;
     color: #4C6FFF; 
@@ -381,7 +381,7 @@ h1 i{
 
 .top-right h4{
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .weather{
@@ -390,12 +390,12 @@ h1 i{
 }
 
 .weather > i{
-    font-size: 35px;
+    font-size: 2.8rem;
     color: #7BD3FE;
 }
 
 .details h1{
-    font-size: 25px;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -443,7 +443,7 @@ h1 i{
 .mid-article-photo > i{
     color: #fff;
     position: absolute;
-    font-size: 25px;
+    font-size: 1.3rem;
     left: 2%;
     top: 2%;
 }
@@ -517,12 +517,12 @@ h1 i{
 
 .featured h3{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.2rem;
     margin-top: 10px;
 }
 
 .featured p{
-    font-size: 12px;
+    font-size: 0.8rem;
     opacity: 0.7;
     margin-top: 10px;
 }
@@ -537,12 +537,12 @@ h1 i{
 }
 
 .author-month h2{
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
 .author-month p{
-    font-size: 13px;
+    font-size: 0.8rem;
     opacity: 0.7;
 }
 
